@@ -11,11 +11,11 @@ assignees: ''
 To apply for DataCap to onboard your dataset to Filecoin, please fill out the following.
 
 ## Core Information
-- Organization Name: 
-- Website / Social Media:
-- Total amount of DataCap being requested (between 500 TiB and 5 PiB):
-- Weekly allocation of DataCap requested (usually between 1-100TiB):
-- On-chain address for first allocation:
+- Organization Name: Solana Lab.
+- Website / Social Media: https://solana.com/ (this is for Solana Lab. & Solana Foundation)
+- Total amount of DataCap being requested (between 500 TiB and 5 PiB): 3.4 PiB
+- Weekly allocation of DataCap requested (usually between 1-100TiB): 50TiB 
+- On-chain address for first allocation: f1xw7jxdldohcdu4ec4a5mcnbtvutyjptawojmuzy
 
 _Please respond to the questions below by replacing the text saying "Please answer here". Include as much detail as you can in your answer._
 
@@ -23,49 +23,57 @@ _Please respond to the questions below by replacing the text saying "Please answ
 
 Share a brief history of your project and organization.
 ```
-Please answer here.
+Solana is a public L1 blockchain. 
+Here is the official history page: https://docs.solana.com/history
+The project is to store solana snapshots it has produced and the snapshots it will produce in Filecoin network.
 ```
 
 What is the primary source of funding for this project?
 ```
-Please answer here.
+Solana Lab.
 ```
 
 What other projects/ecosystem stakeholders is this project associated with?
 ```
-Please answer here.
+solana ecosystem: https://solana.com/ecosystem
 ```
 
 ## Use-case details
 
 Describe the data being stored onto Filecoin
 ```
-Please answer here.
-```
+Snapshots are compressed tar archives which store a copy of solana-accounts at a given slot.
+Solana warehouse node generates snapshots hourly and in the end of epoch it produces a folder  contains all snapshots of a epoch period.
 
+```
 Where was the data in this dataset sourced from?
 ```
-Please answer here.
+A special kind of solana validator called warehouse node produces snapshots. 
+The warehouse node generates snapshots and uploads them to a storage every solana-epoch time.
+
 ```
 
 Can you share a sample of the data? A link to a file, an image, a table, etc., are good ways to do this. 
 ```
-Please answer here.
+If you have aws account. 
+https://s3.console.aws.amazon.com/s3/buckets/filecoin-snapshot-test?region=ap-southeast-1&tab=objects
+download address:
+s3://filecoin-snapshot-test
 ```
         
 Confirm that this is a public dataset that can be retrieved by anyone on the Network (i.e., no specific permissions or access rights are required to view the data).
 ```
-Please answer here.
+Yes. This is a public dataset.
 ```
 
 What is the expected retrieval frequency for this data?
 ```
-Please answer here.
+less than  5 times per month.
 ```
 
 For how long do you plan to keep this dataset stored on Filecoin?
 ```
-Please answer here.
+We plan to keep dataset as long as possible unless unavoidable situation. For example, cost of storage is unaffordable.
 ```
 
 
@@ -73,25 +81,27 @@ Please answer here.
 
 In which geographies (countries, regions) do you plan on making storage deals?
 ```
-Please answer here.
+Diverse regions and countries are prefered. 
+
 ```
 
 How will you be distributing your data to storage providers? Is there an offline data transfer process?
 ```
-Please answer here.
+Prefer online process. 
 ```
-
 How do you plan on choosing the storage providers with whom you will be making deals? This should include a plan to ensure the data is retrievable in the future both by you and others.
 ```
-Please answer here.
+Under the help of Filecoin experts, we are discussing with 2 providers.
 ```
 
 How will you be distributing deals across storage providers?
 ```
-Please answer here.
+We are trying possible methods with 2 providers.
 ```
 
 Do you have the resources/funding to start making deals as soon as you receive DataCap? What support from the community would help you onboard onto Filecoin?
 ```
-Please answer here.
+Solana Lab. will fund the project to store solana snapshots in Filecoin network.
+Onboarding documents have been received from Filecoin experts.
+
 ```
