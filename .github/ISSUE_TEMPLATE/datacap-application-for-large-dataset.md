@@ -91,12 +91,12 @@ Prefer online process.
 ```
 How do you plan on choosing the storage providers with whom you will be making deals? This should include a plan to ensure the data is retrievable in the future both by you and others.
 ```
-Under the help of Filecoin experts, we are discussing with 2 providers.
+We plan to have 5 replicas and plan to find 5 providers. 
 ```
 
 How will you be distributing deals across storage providers?
 ```
-We are trying possible methods with 2 providers.
+We are trying possible methods with 2 providers and will find more providers.
 ```
 
 Do you have the resources/funding to start making deals as soon as you receive DataCap? What support from the community would help you onboard onto Filecoin?
